@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
  *一个小桑拿房一次只能容纳5个人
  *
  */
-public class SemaphoreTest {
+public class SemaphoreExample {
     // 最多允许5个人进入
     private static final Semaphore SEMAPHORE = new Semaphore(5);
 

@@ -10,7 +10,7 @@ import java.util.concurrent.Exchanger;
  * 小明也想知道小红的小秘密
  * 于是他们打算互相交换自己的小秘密
  */
-public class ExchangerTest {
+public class ExchangerExample {
     private static final Exchanger<String> EXCHANGER = new Exchanger<>();
 
     public static void main(String[] args) {

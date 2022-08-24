@@ -2,7 +2,7 @@ package com.example.demo.multithreading.juctools;
 
 import java.util.concurrent.CountDownLatch;
 
-public class CountDownLatchTest {
+public class CountDownLatchExample {
     private static final int COUNT = 5;
     private static final CountDownLatch COUNT_DOWN_LATCH = new CountDownLatch(COUNT);
 

@@ -12,7 +12,7 @@ import java.util.concurrent.CyclicBarrier;
  * 运动员跑到终点保存成绩
  * 所有运动员跑到终点后，成绩排序输出
  */
-public class CyclicBarrierTest {
+public class CyclicBarrierExample {
     //运动员数量量
     private static int SPORTSMAN_COUNT = 10;
     private static final Random RANDOM = new Random();

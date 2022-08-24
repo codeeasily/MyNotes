@@ -3,7 +3,7 @@ package com.example.demo.multithreading;
 /**
  * 三个线程按顺序打印ABC
  */
-public class PrintABC {
+public class PrintABCAsync {
 
     public static void main(String[] args) {
         printByJoin();

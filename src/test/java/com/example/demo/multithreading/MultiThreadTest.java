@@ -1,5 +1,7 @@
-package com.example.demo.multithreading.async;
+package com.example.demo.multithreading;
 
+import com.example.demo.multithreading.async.CommonExecutor;
+import com.example.demo.multithreading.async.CommonExecutorAsync;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,9 +16,25 @@ import java.util.concurrent.CompletableFuture;
  */
 @SpringBootTest
 @EnableAsync
-public class TestMainAsync {
+public class MultiThreadTest {
     @Autowired
     private CommonExecutorAsync commonExecutorAsync;
+
+    @Autowired
+    private CommonExecutor commonExecutor;
+
+    @Test
+    public void testSync() {
+        StopWatch stopwatch = new StopWatch("同步执行");
+        stopwatch.start();
+        commonExecutor.doTaskOne();
+        commonExecutor.doTaskTwo();
+        commonExecutor.doTaskThree();
+        stopwatch.stop();
+        System.out.println("同步执行 总耗时(ms)：" + stopwatch.getTotalTimeMillis());
+
+    }
+
 
     @Test
     public void testExecutorAsync() {
@@ -30,4 +48,6 @@ public class TestMainAsync {
         System.out.println("异步执行 总耗时(ms)：" + stopwatch.getTotalTimeMillis());
 
     }
+
+
 }
