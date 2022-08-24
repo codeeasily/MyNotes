@@ -1,6 +1,6 @@
 **日常学习笔记总结与收录，仅供个人学习使用，如有侵权，请及时联系删除！**
 
-# 文章专题
+# 目录
 
 ## [JVM相关](./src/main/java/com/example/documents/jvm)
 
