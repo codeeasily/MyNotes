@@ -73,10 +73,10 @@ public class Code15 {
             sumZero(nums, fIndex, zIndex, result);
         }
 
-        // 两个负数加两个正数等于0情况
+        // 两个负数加正数等于0情况
         sumF(nums, fIndex, zIndex, result);
 
-        // 两个正数加两个负数等于0的情况
+        // 两个正数加负数等于0的情况
         sumZ(nums, fIndex, zIndex, result);
         return result;
     }
