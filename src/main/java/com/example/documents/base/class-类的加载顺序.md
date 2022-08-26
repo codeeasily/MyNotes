@@ -51,4 +51,11 @@ public class Son extends Parent{
 
 }
 
+public class ClassLoadTest {
+    public static void main(String[] args) {
+        Son son = new Son();
+        son.doSomething();
+    }
+}
+
 ```
