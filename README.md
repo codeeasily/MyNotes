@@ -2,6 +2,8 @@
 
 # 目录
 
+## [Java基础](./src/main/java/com/example/documents/base)
+
 ## [JVM相关](./src/main/java/com/example/documents/jvm)
 
 ## [Spring相关](./src/main/java/com/example/documents/spring)
@@ -13,5 +15,7 @@
 ## [MySQL相关](./src/main/java/com/example/documents/mysql)
 
 ## [IO相关](./src/main/java/com/example/documents/io)
+
+## [设计模式](./src/main/java/com/example/documents/designmodel)
 
 
