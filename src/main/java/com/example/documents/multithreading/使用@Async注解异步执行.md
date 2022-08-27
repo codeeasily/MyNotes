@@ -59,7 +59,7 @@ public class CommonTest {
 }
 ```
 ## 测试结果
-![](../../../../../resources/images/multithreading/async-test-sync.png)
+![](image/async-test-sync.png)
 # 异步执行
 > 再来看一下使用异步优化后的执行效果
 
@@ -144,4 +144,4 @@ public class CommonTest {
 }
 ```
 ## 测试结果
-![](../../../../../resources/images/multithreading/async-test-async.png)
+![](image/async-test-async.png)

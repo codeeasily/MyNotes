@@ -11,10 +11,10 @@
 
 `InputStream`和`OutputStream`的层次结构：
 
-![`InputStream`和`OutputStream`的层次结构](../../../../../resources/images/io/io-inputstream.png)
+![`InputStream`和`OutputStream`的层次结构](image/io-inputstream.png)
 
 ## 字符流
 `Reader` 和 `Writer`的层次结构：
 
-![Reader 和 Writer的层次结构](../../../../../resources/images/io/io-reader.png)
+![Reader 和 Writer的层次结构](image/io-reader.png)
 

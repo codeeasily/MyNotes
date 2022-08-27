@@ -12,7 +12,7 @@ Java里天生可以动态扩展的语言特性就是依赖运行期<font color=r
 >> 其中，验证、准备、解析3个部分统称为**连接**（Linking）。
 
 这7个阶段的发生顺序为：
-![](../../../../../resources/images/jvm/jvm-class-load-tipe.jpeg)
+![](image/jvm-class-load-tipe.jpeg)
 
 <font color=blue>加载、验证、准备、初始化和卸载</font>这5个阶段的顺序是确定的，而<font color=red>解析阶段</font>则不一定：它在某些情况下可以在初始化阶段之后再开始，这是为了支持Java语言的运行时绑定（也称为动态绑定或晚期绑定）。
 
@@ -44,4 +44,4 @@ Java里天生可以动态扩展的语言特性就是依赖运行期<font color=r
 # 类加载器的双亲委派机制
 > 当一个类加载器接收到了类加载请求，他首先不会尝试自己去加载这个类，而是把这个请求委派给父类去完成，每一个层次的类加载器都是如此，因此所有的加载请求都应该传送到启动类加载器中。只有当父类加载器反馈自己无法完成这个请求的时候（在它的加载路径下没有找到所需加载的Class），子类加载器才会尝试自己去加载。
 
-![](../../../../../resources/images/jvm/jvm-class-parent-delegate-module.jpeg)
+![](image/jvm-class-parent-delegate-module.jpeg)

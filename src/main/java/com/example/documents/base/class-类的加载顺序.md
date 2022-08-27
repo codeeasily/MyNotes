@@ -6,7 +6,7 @@
 5. 子类代码块
 6. 子类的构造方法
 
-![](../../../../../resources/images/base/class-load-sequence.png)
+![](image/class-load-sequence.png)
 
 # 测试代码
 [Parent.java](../../demo/model/Parent.java)

@@ -10,5 +10,4 @@ RocketMQ官方文档：https://gitee.com/apache/rocketmq/tree/develop/docs/cn
 | 消息可靠性          | 有较低的概率丢失                | 基本不丢失                       | 经过参数优化配置，可以做到0丢失                                                   | 同RocketMQ                                                                       |
 | 功能支持           | MQ领域的极其完备               | 基于erlang开发，并发能力很强，性能极好，延时很低 | MQ功能较为完善，还是分布式的，扩展性好                                               | 功能较为简单，主要支持简单的MQ功能，在大数据领域的实时计算以及日志采集被大规模使用                                      |
 
-# RocketMQ
 

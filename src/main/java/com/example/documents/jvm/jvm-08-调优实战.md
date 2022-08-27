@@ -5,13 +5,13 @@
 # 调优的一般流程
 
 - `top`命令 查看CPU、内存占用情况
-  ![](../../../../../resources/images/jvm/jvm-top.png)
+  ![](image/jvm-top.png)
 
 > load average：cpu在1分钟、5分钟、15分钟内的负载情况
 > Mem: 内存的负载情况
 
 - `dstat -d`观察机器的磁盘IO情况
-  ![](../../../../../resources/images/jvm/jvm-dstat.png)
+  ![](image/jvm-dstat.png)
 - `dstat -r` 磁盘的读IOPS和写IOPS情况
 - `dstat -n`网卡收发流量情况
 - `jps` 查看应用进程编号pid

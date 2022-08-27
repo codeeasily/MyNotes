@@ -4,7 +4,7 @@
 
 > 根据《Java虚拟机规范（Java SE 7 版）》的规定，Java虚拟机所管理的内存将会包括以下几个运行时数据区域。
 
-![](../../../../../resources/images/jvm/jvm-runtime-area.jpeg)
+![](image/jvm-runtime-area.jpeg)
 ## 程序计数器
 > 程序计数器是一块较小的内存空间，他可以看作是当前线程所执行的字节码的行号指示器。在虚拟机的概念模型里（`仅是概念模型，各种虚拟机可能会通过一些更高效的方式去实现`），字节码解释器工作时就是通过改变这个计数器的值来选取下一条需要执行的字节码指令，分支、循环、跳转、异常处理、线程恢复等基础功能都需要依赖这个计数器来完成。
 
@@ -82,5 +82,5 @@ Java虚拟机规范对方法区的限制非常宽松，除了和Java堆一样不
 # [JDK 8 - 废弃永久代](https://www.cnblogs.com/dennyzhangdd/p/6770188.html)
 > 元空间的本质和永久代类似，都是对JVM规范中方法区的实现。不过元空间与永久代之间最大的区别在于：元数据空间并不在虚拟机中，而是使用本地内存
 
-![](../../../../../resources/images/jvm/jvm-runtime-area-view.jpg)
+![](image/jvm-runtime-area-view.jpg)
 
