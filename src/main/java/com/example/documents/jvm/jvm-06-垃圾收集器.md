@@ -161,4 +161,4 @@ G1的运作过程：
 | CMS               | 标记-清除                   | 多线程并发、老年代 | 服务端模式 | 并发收集、低停顿；                                                                                                |
 | G1                | 标整体上是标记-整理算法，局部是标记-复制算法 | 多线程并发、老年代 | 服务端模式 | 开创了收集器面向局部收集的设计思路和基于Region的内存布局形式；JDK9发布之日，G1宣告取代Parallel Scavenge加Parallel Old组合，成为服务端模式下的默认垃圾收集器       |
 
-![](http://www.ffeiyang.top/jvm-garbage-collectior.png)
+![](image/jvm-garbage-collectior.png)
