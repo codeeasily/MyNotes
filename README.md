@@ -14,8 +14,6 @@
 
 ## [MySQL相关](./src/main/java/com/example/documents/mysql)
 
-## [IO相关](src/main/java/com/example/documents/base/io)
-
 ## [设计模式](./src/main/java/com/example/documents/designmodel)
 
 
