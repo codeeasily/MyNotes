@@ -10,6 +10,7 @@ BIO、AIO、NIO
 BIO 属于同步阻塞 IO 模型 。
 
 同步阻塞 IO 模型中，应用程序发起 read 调用后，会一直阻塞，直到内核把数据拷贝到用户空间。
+
 ![](image/io-bio.png)
 ## NIO
 Java 中的 NIO 于 Java 1.4 中引入，对应 java.nio 包，提供了 Channel , Selector，Buffer 等抽象。

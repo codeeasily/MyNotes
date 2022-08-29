@@ -27,6 +27,14 @@ double write机制的实现原理：
 可以通过 `show engine innodb status`命令查看当前日志的写入情况。
 InnoDB引擎有一个特殊的功能叫做 "自适应哈希索引"。
 
+# redo-log undo-log bin-log
+- undo-log:
+  > 记录数据更新之前的数据，用来做回滚操作
+- redo-log:
+  > 记录数据做了什么更新操作，提交事务之前，如果系统宕机等，用来恢复
+- bin-log:
+  > server级别的二级制文件，记录写入性的操作
+
 # 自适应哈希索引
 当InnoDB注意到某些索引值被使用的非常频繁时，会在内存中基于B-Tree索引之上再创建一个哈希索引，这样就让B-Tree索引也具有哈希索引的一些优点，比如快速查找。 
 

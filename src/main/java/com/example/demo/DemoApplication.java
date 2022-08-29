@@ -8,8 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.example.demo.mapper")
 public class DemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication application = new SpringApplication(DemoApplication.class);
+        // 设置允许循环引用（2.6版本之后默认为false）
+        application.setAllowCircularReferences(true);
+        application.run(args);
+    }
 
 }
