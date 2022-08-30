@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
     public static void main(String[] args) {
+//        System.setProperty("spring.profiles.active","dev");
+//        SpringApplication.run(DemoApplication.class, args);
         SpringApplication application = new SpringApplication(DemoApplication.class);
         // 设置允许循环引用（2.6版本之后默认为false）
         application.setAllowCircularReferences(true);
