@@ -29,7 +29,7 @@ InnoDB引擎有一个特殊的功能叫做 "自适应哈希索引"。
 
 # redo-log undo-log bin-log
 - undo-log:
-  > 记录数据更新之前的数据，用来做回滚操作
+  > 记录数据更新之前的数据，用来做回滚操作。如果执行的delete语句，undo-log则记录的是insert,相反的更新操作；
 - redo-log:
   > 记录数据做了什么更新操作，提交事务之前，如果系统宕机等，用来恢复
 - bin-log:
