@@ -11,6 +11,7 @@
 Major GC 的速度一般会比Minor GC 慢10 倍以上
 
 ## 大对象直接进入老年代
+> -XX:PretenureSizeThreshold 可设置定义大对象的大小。 只支持Serial和ParNew。
 > 大对象是指：需要大量连续空间的Java对象，最典型的就是那种很长的字符串以及数组
 ## 长期存活的对象将进入老年代
 > 如果对象在Eden中出生并经历过一次Minor GC 后仍然存活，并且能被Survivor 容纳的话，将被移动到Survivor空间中，并且对象年龄设置为1。对象在Survivor区中每“熬过”一次Minor GC ，年龄就增加1岁，当它的年龄增加到一定程度（默认是15岁），就将会被晋升到老年代中。
