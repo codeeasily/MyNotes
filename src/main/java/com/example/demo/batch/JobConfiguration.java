@@ -14,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
  * @author iCoderLad
  * @date 2022/08/30 11:27
  */
-@Configuration
-@EnableBatchProcessing
+//@Configuration
+//@EnableBatchProcessing
 public class JobConfiguration {
 
     @Autowired
