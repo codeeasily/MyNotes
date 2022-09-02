@@ -4,7 +4,7 @@
 
 ## [Java基础](./src/main/java/com/example/documents/base)
 
-## [JVM相关](./src/main/java/com/example/documents/jvm)
+## [JVM相关](./src/main/java/com/example/documents/jvm/JVM-guide.md)
 
 ## [Spring相关](./src/main/java/com/example/documents/spring)
 
