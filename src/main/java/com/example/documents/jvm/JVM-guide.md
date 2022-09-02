@@ -10,7 +10,6 @@
 
 # 其他
 - [GC 分类](jvm-GC.md)
-- [GC 分代年龄为什么最大是15](jvm-GC年龄为什么最大是15？.md)
 
 # 线上问题
 - [记一次生产环境CPU占用飙高问题解决](https://blog.csdn.net/BiLaHePan/article/details/50910583)
