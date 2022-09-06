@@ -16,4 +16,4 @@
 - [记一次线上频繁GC的排查过程](https://blog.csdn.net/weixin_42392874/article/details/89483496/)
 
 # 知识点汇总
-![](image/JVM.png)
+![](image/JVM-guide.png)

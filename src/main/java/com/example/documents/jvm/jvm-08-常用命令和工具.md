@@ -53,6 +53,7 @@ jinfo -flag CMSInitiatingOccupancyFraction 1444
 ```shell
 jmap [option] vmid
 ```
+![](image/jvm-jmap.png)
 # jhat：虚拟机堆转储快照分析工具
 与jmap搭配使用，来分析jmap生成的堆转储快照。
 
