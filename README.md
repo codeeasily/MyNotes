@@ -24,5 +24,3 @@
 [百分百面试题：遇到过线上问题没？](https://mp.weixin.qq.com/s/3ooT9wHfg0lGlLNuQiw2pQ)
 
 [记一次CPU使用率低负载高的排查过程-简易百科](https://www.isolves.com/it/wl/js/2020-06-01/19173.html)
-
-[线上接口变慢，如何排查_码上得天下的博客-CSDN博客_线上接口响应慢要怎么排查](https://blog.csdn.net/meser88/article/details/121428688)
