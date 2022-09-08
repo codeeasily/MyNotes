@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class BCircularRefServiceImpl implements BCircularRefService {
-    @Autowired
-    ACircularRefService aCircularRefService;
+//    @Autowired
+//    ACircularRefService aCircularRefService;
 
     @Override
     public void doNothing() {
-        aCircularRefService.doNothing();
+//        aCircularRefService.doNothing();
     }
 }

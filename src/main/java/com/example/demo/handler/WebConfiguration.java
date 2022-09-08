@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfiguration implements WebMvcConfigurer {
     @Autowired
-    CommonInterceptor commonInterceptor;
+    CommonHandlerInterceptor commonInterceptor;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

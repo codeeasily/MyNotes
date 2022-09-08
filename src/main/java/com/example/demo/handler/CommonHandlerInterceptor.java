@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * @date 2022/09/01 16:51
  */
 @Component
-public class CommonInterceptor implements HandlerInterceptor {
+public class CommonHandlerInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("interceptor preHandle");

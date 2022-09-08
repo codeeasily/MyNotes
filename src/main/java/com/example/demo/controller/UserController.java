@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -31,6 +32,12 @@ public class UserController {
     public APIResult<User> queryById(@PathVariable("id") Integer id) {
         User user = null;
         try {
+            if (id == 1){
+                List<User> arr = new ArrayList<>();
+                for (;;){
+                    arr.add(new User());
+                }
+            }
             user = userService.queryById(id);
         } catch (Exception e) {
             e.printStackTrace();
