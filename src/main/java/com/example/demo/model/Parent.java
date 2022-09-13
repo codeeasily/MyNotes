@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 /**
- * @author iCoderLad
+ * 
  * @date 2022/08/26 18:14
  */
 public class Parent {

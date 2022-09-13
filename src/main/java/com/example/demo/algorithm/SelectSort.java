@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * @author iCoderLad
+ * 
  * @date 2022/09/08 10:44
  */
 public class SelectSort {
