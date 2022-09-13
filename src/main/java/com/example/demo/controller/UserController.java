@@ -32,6 +32,7 @@ public class UserController {
     public APIResult<User> queryById(@PathVariable("id") Integer id) {
         User user = null;
         try {
+            // OOM 异常
             if (id == 1){
                 List<User> arr = new ArrayList<>();
                 for (;;){
