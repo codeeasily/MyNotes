@@ -1,6 +1,7 @@
 package com.example.demo.algorithm;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @author iCoderLad
@@ -8,7 +9,8 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 3, 7, 5, 6, 4, 2};
+        int[] arr = new Random().ints(0,10).distinct().limit(8).toArray();
+        System.out.println(Arrays.toString(arr));
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }

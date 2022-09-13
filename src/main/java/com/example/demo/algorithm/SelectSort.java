@@ -1,7 +1,6 @@
 package com.example.demo.algorithm;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -11,6 +10,7 @@ import java.util.Random;
 public class SelectSort {
     public static void main(String[] args) {
         int[] arr = new Random().ints(0,10).distinct().limit(8).toArray();
+        System.out.println(Arrays.toString(arr));
         selectSort(arr);
         System.out.println(Arrays.toString(arr));
     }
