@@ -7,7 +7,6 @@ import java.util.Random;
  * @date 2022/09/13 19:38
  */
 public class MergeSort {
-
     public static void main(String[] args) {
         int[] a = new Random().ints(0,10).distinct().limit(7).toArray();
         System.out.println(Arrays.toString(a));
